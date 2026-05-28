@@ -1,24 +1,18 @@
-
-V0.9 by Fu-Hwei Hong 
-
-This is a simple demonstation simulation to visulize the phase_array receiver beam pattern.
-
-The code is done with google antigravity then chatgpt coding 
 # 2D Acoustic Phased Array Beamforming Simulator
 
-Interactive Python simulator for a **9x9 programmable phased array** receiver.  
-Visualizes beam patterns with steering angle control and 2D/3D plots.
+Interactive Python simulator for a **phased array receiver**.  
+Visualizes beam patterns with steering angle control, tilting, and both 2D and 3D plots.
 
-![Beam Pattern Example1](simulation_result/sim_result_3D_+_7elements.png)   <!-- Add your image here -->
-![Beam Pattern Example2](simulation_result/sim_result_3D_line_9elements.png)   <!-- Add your image here -->
-![Beam Pattern Examplemp4](simulation_result/sim_tilting.mp4)   <!-- Add your image here -->
+![3D Beam Pattern](simulation_result/sim_result_3D_+_7elements.png)
+![3D Line Plot](simulation_result/sim_result_3D_line_9elements.png)
+![Tilting Animation](simulation_result/sim_tilting.mp4)
 
 ## Features
-- 9x9 element phased array simulation
-- Programmable element spacing and frequency
-- Beam steering and tilting visualization
-- 2D heatmap + 3D beam pattern plots
-- Real-time parameter adjustment
+- Configurable NxN element phased array (tested with 9x9)
+- Programmable frequency and element spacing
+- Beam steering and mechanical/electrical tilting visualization
+- 2D heatmap and 3D beam pattern rendering
+- Real-time parameter adjustment via GUI
 
 ## Installation
 
