@@ -17,3 +17,6 @@ phase-array-beamforming-simulator/
 ├── results/                   ← Screenshots, GIFs, or sample plots
 ├── docs/                      ← Extra documentation (optional)
 └── .gitignore                 ← Ignore cache files, etc.
+
+
+The code is done with google antigravity then chatgpt coding 
